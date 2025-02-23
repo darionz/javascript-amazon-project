@@ -25,7 +25,7 @@ export function addToCart(productId) {
   }
 }
 
-export function removeFromCart(productIdco) {
+export function removeFromCart(productId) {
   const newCart = [];
 
   cart.forEach((cartItem) =>{

@@ -9,7 +9,7 @@ describe('Test suite: renderOrderSummary', () => {
 
   beforeAll((done) => {
     loadProductsFetch().then(() => {
-      done;
+      done();
     });
 
     
